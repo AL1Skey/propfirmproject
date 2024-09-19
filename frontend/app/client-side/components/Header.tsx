@@ -5,8 +5,9 @@ const Header = () => {
     <header className=" bg-primary text-fourth">
       <section className="banner">
         <img
-          src="https://s3-alpha.figma.com/hub/file/2919915406/d3627f82-4e1c-4ca8-a2ac-9a15f7166b25-cover.png"
+          src="https://tse3.mm.bing.net/th/id/OIG1._mtFbgtIAiafNEfpDZse?w=1024&h=1024&rs=1&pid=ImgDetMain"
           alt="AA"
+          className="w-full h-[50rem]"
         />
       </section>
       <section className="paragraph p-5 grid grid-cols-2 gap-10 w-full">
