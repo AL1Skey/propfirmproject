@@ -4,7 +4,7 @@ import { StarIcon } from '@chakra-ui/icons'
 
 const Review = () => {
   return (
-    <section className="bg-blue-900">
+    <section className="bg-secondary">
       <header className="text-center text-3xl py-5">
         <h3>Lorem ipsum dolor sit amet.</h3>
       </header>

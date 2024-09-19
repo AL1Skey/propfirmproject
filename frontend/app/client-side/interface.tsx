@@ -11,7 +11,18 @@ interface ButtonProps {
     onClick: any;
 }
 
+interface FooterNavProps {
+    title: string|undefined;
+    data: Array<FooterNavPropsData>|undefined;
+}
+interface FooterNavPropsData {
+    title: string|undefined;
+    link: string|undefined;
+}
+
 export type {
     CardsProps,
-    ButtonProps
+    ButtonProps,
+    FooterNavProps,
+    FooterNavPropsData
 }

@@ -3,13 +3,13 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full text-white bg-blue-700 p-5">
+    <nav className="w-full text-white bg-primary p-5">
       <div className="auth-nav w-full flex justify-end gap-20 ">
         <ButtonGroup>
-          <Button >
+          <Button className="bg-teritary">
             <a href="/login">Login</a>
           </Button>
-          <Button>
+          <Button className="bg-teritary">
             <a href="/signup">Signup</a>
           </Button>
         </ButtonGroup>
@@ -18,6 +18,8 @@ const Navbar = () => {
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
+        <a href="/article">Article</a>
+        
       </div>
     </nav>
   );

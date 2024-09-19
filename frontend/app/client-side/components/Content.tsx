@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../tools/Card";
 const Content = () => {
   return (
-    <section className="bg-blue-800">
+    <section className="bg-tertiary ">
       <header className="text-center text-3xl py-5">
         <h3>Lorem ipsum dolor sit amet.</h3>
       </header>
