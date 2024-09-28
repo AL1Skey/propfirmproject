@@ -1,8 +1,8 @@
 "use client";
-import Header from "./client-side/components/Header";
-import Content from "./client-side/components/Content";
-import Review from "./client-side/components/Review";
-import Footer from "./client-side/components/Footer";
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Review from "./components/Review";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../tools/Card";
+import Card from "../client-side/tools/Card";
 const Content = () => {
   return (
     <section className="bg-tertiary ">

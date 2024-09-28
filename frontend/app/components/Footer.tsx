@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import FooterNav from "./FooterNav";
-import data from "./../data/footer.json";
+import data from "../client-side/data/footer.json";
 const Footer = () => {
   return (
     <footer className="p-12 bg-[#04452f] text-fourth">

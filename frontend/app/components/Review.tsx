@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../tools/Card'
+import Card from '../client-side/tools/Card'
 import { StarIcon } from '@chakra-ui/icons'
 
 const Review = () => {
